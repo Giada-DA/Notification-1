@@ -1,0 +1,14 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    post: 587
+    username: whanau.gda@gmail.com
+    password: 19az25g07d
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+              enable: true
+          ssl:
+            trust: smtp.gmail.com
